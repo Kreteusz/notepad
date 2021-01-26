@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 10%;
+  height: 100vh;
+  background: #1a1a1a;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.notes-nav {
+  width: 20%;
+  height: 100%;
+  background: #f8f8f8;
+  position: absolute;
+  top: 0;
+  border-right: 1px solid #e6e6e6;
+  left: 10%;
+}
+
+.notes-main {
+  width: 69%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 31%;
+}
+/*  ;*/

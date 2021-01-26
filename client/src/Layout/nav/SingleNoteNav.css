@@ -1,0 +1,27 @@
+.title-nav {
+  padding: 10px 25px 0;
+  height: 70px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.note-template {
+  padding: 10px 25px 0;
+  height: 85px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.note-template:hover {
+  cursor: pointer;
+  background: #fff;
+}
+.note-template:focus {
+  background-color: blue;
+}
+.single-note-nav {
+  height: 100%;
+}
+
+.note-nav {
+  height: calc(100% - 95px);
+  overflow-y: auto;
+}
